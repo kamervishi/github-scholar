@@ -163,7 +163,7 @@ github <- function(){
         
         #(2)Generate Token from GitHub and use it.
         print(paste("Publications are uploaded on GitHub Repository", '"',repository,'"', "of", name, sep = " "))
-        put <- PUT(paste0("https://api.github.com/repos/Vasileios-Mavroeidis/Publications/contents/README.md?access_token=", token), body = github_json, accept_json())
+        put <- PUT(paste0("https://api.github.com/repos/",name,"/",repository,"/contents/README.md?access_token=", token), body = github_json, accept_json())
         if (put$status_code==200){print("The Publications have been SUCCESSFULLY uploaded on GitHub")}else cat(paste("Failed Attempt. Please check the response from GitHub below for details:", put))
 }
 #################################################################################################################################################
