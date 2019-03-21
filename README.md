@@ -1,8 +1,8 @@
 # README
 
-*github-scholar* is an R script that makes use of the API of GitHub to update your repository hosting publications (e.g., journal papers, conference proceedings, magazines, articles, books). This is of use to any scholar, schientist, and professional that would like to have a centralised aggregation point of self-publications. 
+*github-scholar* is an R script that makes use of the API of GitHub to update your repository hosting publications (e.g., journal papers, conference proceedings, magazines, articles, books). This is of use to any scholar, scientist, and professional that would like to have a centralised aggregation point of self-publications. 
 
-You can see an example of a GutHub Publications page after running the script [HERE](https://github.com/Vasileios-Mavroeidis/Publications)
+You can see an example of a GitHub Publications page after have ran the script [HERE](https://github.com/Vasileios-Mavroeidis/Publications)
 
 
 ## How Do I Use the *github-scholar* Code
