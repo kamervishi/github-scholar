@@ -26,23 +26,23 @@ Type *Rscript publication.R --help* to see the available flags
 Version 1 of the script supports the following options:
 
 
-+ -g, --github *Update publications on GitHub* **required
++ -g, --github *Update publications on GitHub* **[REQUIRED]**
     
-+ -n NAME, --name NAME *GitHub name* **required
++ -n NAME, --name NAME *GitHub name* **[REQUIRED]**
 
-+ -r REPOSITORY, --repository REPOSITORY *GitHub repository of the publications Readme.md file* **required**
++ -r REPOSITORY, --repository REPOSITORY *GitHub repository of the publications Readme.md file* **[REQUIRED]**
 
-+ -f FILE, --file FILE Path *File of publications in .json format proposed that we want to upload on GitHub* **required**
++ -f FILE, --file FILE Path *File of publications in .json format proposed that we want to upload on GitHub* **[REQUIRED]**
 
-+ -t TOKEN, --token TOKEN *Authentication token from GitHub* **required (or use usernmame and password - NOT RECOMMENDED)**
++ -t TOKEN, --token TOKEN *Authentication token from GitHub* **[REQUIRED (or use usernmame and password - NOT RECOMMENDED)]**
 
-+ -u USERNAME, --username USERNAME *(NOT RECOMMENDED TO USE) GitHub username - Instead use token* **optional**
++ -u USERNAME, --username USERNAME *(NOT RECOMMENDED TO USE) GitHub username - Instead use token* **[OPTIONAL]**
 
-+ -p PASSWORD, --password PASSWORD *(NOT RECOMMENDED TO USE) GitHub password - Instead use token* **optional**
++ -p PASSWORD, --password PASSWORD *(NOT RECOMMENDED TO USE) GitHub password - Instead use token* **[OPTIONAL]**
 
-+ -s SCHOLAR, --scholar SCHOLAR *Add Google Scholar Profile to Extract TOTAL Number of citations* **optional**
++ -s SCHOLAR, --scholar SCHOLAR *Add Google Scholar Profile to Extract TOTAL Number of citations* **[OPTIONAL]**
 
-+ -h, --help *Show this help message and exit* **optional**
++ -h, --help *Show this help message and exit* **[OPTIONAL]**
 
 
 ## Sample Command
