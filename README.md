@@ -13,7 +13,7 @@ You can see an example of a GutHub Publications page after running the script [H
 
 2. A json format file that has all the publications that we want to make available online aggregated. Check publications.json in the main folder of github-scholar [HERE](https://github.com/Vasileios-Mavroeidis/github-scholar/blob/master/publications.json) . You can use this file as a reference to the format. In general the format is based on BibTeX. A json file can be parsed by any programming language using the basic libraries and can be used easily for interoperability purposes. For example the same file (publications.json) can be used to update the publications in our web application.
 
-3. Generate a GitHub token. Details at https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line
+3. Generate a [GitHub Token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
 
 4. Know your GitHub username and repository name (where you will host your publications README file)
 
