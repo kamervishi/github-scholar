@@ -4,6 +4,8 @@
 
 You can see an example of a GitHub Publications page after have ran the script [HERE](https://github.com/Vasileios-Mavroeidis/Publications)
 
+This is [a link](http://example.com){:target="_blank"} that opens in a new window.
+
 
 ## How Do I Use the *github-scholar* Code
 
