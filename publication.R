@@ -80,11 +80,10 @@ assign_id_and_sort <- function(){
 google_citations <- function(scholar) {
         
         scholar_prof <- GET(url = scholar)
-        
+        content_of_html <- content(scholar_prof, as = "text")
         #<td class="gsc_rsb_std">43</td>
-        
-        scholar_profile <- str_match_all(string = scholar_prof, pattern = '<td class="gsc_rsb_std">[[:digit:]]*</td>')
-        scholar_name <- str_match_all(string = scholar_prof, pattern= '<div id="gsc_prf_in">[a-zA-Z0-9_ ]*')
+        scholar_profile <- str_match_all(string = content_of_html, pattern = '<td class="gsc_rsb_std">[[:digit:]]*</td>')
+        scholar_name <- str_match_all(string = content_of_html, pattern= '<div id="gsc_prf_in">[a-zA-Z0-9_ ]*')
         scholar_name <- unlist(scholar_name)
         scholar_name <- strsplit(scholar_name, split = ">")
         scholar_name <- scholar_name[[1]][2]
