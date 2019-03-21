@@ -1,0 +1,78 @@
+{"publication" : [
+  {
+    "title":"Cyber threat intelligence model: an evaluation of taxonomies, sharing standards, and ontologies within cyber threat intelligence",
+    "author":["Vasileios Mavroeidis", "Siri Bromander"],
+    "container": "2017 European Intelligence and Security Informatics Conference (EISIC)",
+    "pages":"91-98",
+    "year": "2017",
+    "organization": "IEEE",
+    "type":"book"
+  },
+  {
+    "title":"A framework for data-driven physical security and insider threat detection",
+    "author":["Vasileios Mavroeidis", "Kamer Vishi","Audun Jøsang"],
+    "container": "2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+    "pages":"1108-1115",
+    "year": "2018",
+    "organization": "IEEE"
+  },
+  {
+    "title":"Quick Response Code Secure: A Cryptographically Secure Anti-Phishing Tool for QR Code Attacks",
+    "author":["Vasileios Mavroeidis", "Mathew Nicho"],
+    "container": "International Conference on Mathematical Methods, Models, and Architectures for Computer Network Security",
+    "pages":"313-324",
+    "year": "2017",
+    "organization": "Springer"
+  },
+  {
+    "title":"Privacy Issues and Data Protection in Big Data: A Case Study Analysis under GDPR",
+    "author":["Nils Gruschka", "Vasileios Mavroeidis", "Kamer Vishi", "Meiko Jensen"],
+    "container": "2018 IEEE International Conference on Big Data (Big Data)",
+    "pages":"5027-5033",
+    "year": "2018",
+    "organization": "IEEE",
+    "workshop": "CyberHunt 2018"
+  },
+  {
+    "title":"An Evaluation of Score Level Fusion Approaches for Fingerprint and Finger-vein Biometrics",
+    "author":["Kamer Vishi", "Vasileios Mavroeidis"],
+    "container": "Norwegian Information Security Conference (NISK)",
+    "year": "2017",
+    "notes": "Norsk Informasjonssikkerhetskonferanse (NISK)"
+  },
+  {
+    "title":"Neural reputation models learned from passive DNS data",
+    "author":["Pierre Lison","Vasileios Mavroeidis"],
+    "container": "2017 IEEE International Conference on Big Data (Big Data)",
+    "pages": "3662-3671",
+    "year": "2017",
+    "organization": "IEEE"
+  },
+  {
+    "title":"Data-driven threat hunting using sysmon",
+    "author":["Vasileios Mavroeidis","Audun Jøsang"],
+    "container":"Proceedings of the 2nd International Conference on Cryptography, Security and Privacy",
+    "pages":"82-88",
+    "year":"2018",
+    "organization": "ACM",
+    "country": "China",
+    "city": "Guiyang"
+  },
+  {
+    "title":"The Impact of Quantum Computing on Present Cryptography",
+    "author":["Vasileios Mavroeidis", "Kamer Vishi", "Mateusz D. Zych"],
+    "container":"International Journal of Advanced Computer Science and Applications (IJACSA)",
+    "pages":"405-414",
+    "year":"2018"
+  },
+  {
+    "title":"Automatic Detection of Malware-Generated Domains with Recurrent Neural Models",
+    "author":["Pierre Lison", "Vasileios Mavroeidis"],
+    "container":"Norwegian Information Security Conference (NISK)",
+    "year":"2017",
+    "notes":"Norsk Informasjonssikkerhetskonferanse (NISK)"
+  }
+  ]
+}
+
+
